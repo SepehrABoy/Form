@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="css/inputs.css">
+    <link rel="stylesheet" href="css/others.css">
+</head>
+<body>
+    <div class="form">
+        <div id="slider">
+            <h2>Welcome to our site.</h2>
+            <p>Some nonescens about this site...</p>
+        </div>
+        <form id="register">
+            <h3>Register</h3>
+
+            <label for="regUserName">User name</label>
+            <input type="text" name="regUserName">
+
+            <label for="email">Email</label>
+            <input type="email" id="" name="email">
+
+            <label for="regPassWord">Password</label>
+            <input type="password" id="" name="regPassWord">
+
+            <label for="regPassWordRe">Password repeat</label>
+            <input type="password" id="" name="regPassWordRe">
+
+            <button class="submitBTN" onclick="Register()">Register</button>
+        </form>
+        <form id="login">
+            <h3>Login</h3>
+            
+            <label for="logUserName">User name</label>
+            <input type="text" name="logUserName">
+            
+            <label for="logPassWord">Password</label>
+            <input type="password" id="" name="logPassWord">
+            
+            <div class="cb">
+                <label class="CB_label" for="logCheckbox">Don't forget me.</label>
+                <input class="CB" type="checkbox" name="logCheckbox">
+            </div>
+
+            <button class="submitBTN" onclick="Login()">Login</button>
+        </form>
+        <div class="buttons">
+            <button class="BTN1" onclick="reg()">Already have an account?</button>
+            <button class="BTN1" onclick="log()">Don't have an account?</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

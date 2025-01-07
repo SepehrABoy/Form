@@ -1,0 +1,60 @@
+body {
+    background-color: #f7f7f7;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    background-color: white;
+    height: 450px;
+    width: 850px;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(31, 31, 31);
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 20px;
+    margin: 20px 20px;
+}
+
+#slider {
+    position: absolute;
+    background: linear-gradient(45deg ,rgb(218, 64, 159) ,rgb(114, 0, 167));
+    width: 50%;
+    height: 100%;
+    z-index: 100;
+    transform: translateX(212.5px);
+    border-radius: 70px 10px 10px 70px;
+    transition: all 0.3s;
+}
+
+/* Forms */
+#register {
+    transform: scale(1);
+    transition: all 0.4s;
+}
+
+#login {
+    transform: scale(0.5);
+    transition: all 0.4s;
+}
+/* Forms */
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    margin:20px calc(50% - 110px);
+}
+p {
+    font-size: 17px;
+    margin: 10px;
+}
